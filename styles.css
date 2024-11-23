@@ -1,0 +1,44 @@
+
+body {
+background-color: skyblue;
+display: inline-block;
+    margin: 0px auto;
+
+display: flex;
+
+  flex-direction: column; /* To align items vertically */
+
+  align-items: center;
+
+  justify-content: center;
+
+  width: 1000px; /* Adjust width as needed */
+
+  min-height: 100vh; /* Ensure container takes full viewport height */
+}
+
+p, iframe {
+	align-content: center;
+
+
+}
+
+
+ figure {
+	width: 500px;
+	height: 500px;
+	border-style: double;
+	border-color: black;
+	border-width: 15px;
+	padding: 15px;
+	padding-bottom: 50px;
+	
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+ 	
+
+
+}
+
+
